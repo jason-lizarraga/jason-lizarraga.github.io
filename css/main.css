@@ -123,6 +123,10 @@ h2 ~ p {
     color: #ccc;
   }
 
+  .footer > ul {
+      position: relative;
+      top: 20px;
+  }
 /* HERO STYLE */
 .full-hero {
     background-color: #c7dbfc;
