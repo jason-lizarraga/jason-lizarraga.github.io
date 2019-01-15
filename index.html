@@ -51,7 +51,25 @@ layout: default
             </p>
         </div>
     </div>
-
+    <div class="home-section">
+        <h4>Most recent post</h4>
+        <div class="blog-posts">
+            <header class="post-header">
+                <h2>
+                    <a href="{{ site.posts.first.url }}">
+                        {{ site.posts.first.title }}</a>
+                </h2>
+                <div class="post-byline">
+                    <img src="{{ site.posts.first.gravatar }}">
+                    <a href="{{ site.posts.first.authorTwitter }}" class="social-link">Tw</a>
+                    by: {{ site.posts.first.author }}
+                    <span> - {{ site.posts.first.date | date: '%B %d, %Y' }}</span>
+                </div>
+            </header>
+            <div class="posts-image" style="background-image:url({{ site.posts.first.postHero }})"></div>
+            {{ site.posts.first.excerpt }}
+        </div>
+    </div>
     <div class="home-section">
         <h2>THE FOUNDERS</h2>
         <p>
@@ -63,7 +81,7 @@ layout: default
 
         <div class="bio-wrapper">
             <div class="bio-box">
-                <img src="http://placekitten.com/g/400/400">
+                <img src="http://placekitten.com/400/400">
                 <h3>Michael Hartl</h3>
                 <a href="http://twitter.com/mhartl" class="social-link">
                     Tw
@@ -87,7 +105,7 @@ layout: default
                 </div>
             </div>
             <div class="bio-box">
-                <img src="http://placekitten.com/g/400/400">
+                <img src="http://placekitten.com/400/400">
                 <h3>Lee Donahoe</h3>
                 <a href="https://twitter.com/leedonahoe" class="social-link">
                     Tw
@@ -102,7 +120,7 @@ layout: default
                 </div>
             </div>
             <div class="bio-box">
-                <img src="http://placekitten.com/g/400/400">
+                <img src="http://placekitten.com/400/400">
                 <h3>Nick Merwin</h3>
                 <a href="https://twitter.com/nickmerwin" class="social-link">
                     Tw
