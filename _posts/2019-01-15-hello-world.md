@@ -7,8 +7,13 @@ authorTwitter: http://twitter.com/jasonlizarraga1
 gravatar: https://s.gravatar.com/avatar/bf0baf97154f0c9ab74f42c1527af81f?s=150
 postFooter: Additional information, and maybe a <a href="#">link or two</a>
 ---
+Hi Alex! The lavender is for you.
 
-Alex is the best Alex in the whole-wide world and we should all just do whatever she wants right now without complaint. Because she knows best about what is going to make her smile.
+Call me *Ishmael*. Some years ago–*never mind how long
+precisely*–having little or no money in my purse, and nothing
+particular to interest me on shore, I thought I would sail about a little
+and see the watery part of the world. It is a way I have of driving off
+the spleen and regulating the circulation.
 
 <img class="pull-left" src="http://placekitten.com/400/200"
      alt="kitten">
