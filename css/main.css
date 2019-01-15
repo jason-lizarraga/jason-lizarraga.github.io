@@ -134,20 +134,20 @@ h2 ~ p {
     flex: 1;
 }
 .col {
-box-sizing: border-box;
-padding: 2em;
+    box-sizing: border-box;
+    padding: 2em;
 }
 .col-three .col ~ .col {
-border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
 .col-three .col-nav {
-flex: 0 1 15em;
+    flex: 0 1 15em;
 }
 .col-three .col-content {
-flex: 1;
+    flex: 1;
 }
 .col-three .col-aside {
-flex: 0 1 20em
+    flex: 0 1 20em
 }
 
 /* HERO STYLE */
@@ -306,4 +306,42 @@ flex: 0 1 20em
 
 .bio-copy a {
     color: green;
+}
+
+/* GALLERY STYLES */
+.gallery-thumbs {
+    height: 90vh;
+    overflow: scroll;
+}
+.gallery-thumbs > div {
+    cursor: pointer;
+}
+.gallery-thumbs img {
+    box-sizing: border-box;
+    box-shadow: 0 0 0 5px transparent;
+    display: inline-block;
+    margin: 0 0 10px;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+}
+.gallery-thumbs img:hover {
+    opacity: 1;
+}
+.gallery-thumbs .current img {
+    box-shadow: 0 0 0 5px #ed6e2f;
+    cursor: default;
+    opacity: 1;
+}
+.gallery-photo {
+    position: relative;
+}
+.gallery-photo img {
+    width: 100%;
+}
+.gallery-info {
+    font-size: 0.8rem;
+}
+.gallery-info h3 {
+    margin-bottom: 1em;
 }
