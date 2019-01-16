@@ -1,5 +1,18 @@
 <head>
-    <title>Hello, World!</title>
+    {% if page.title %}
+    <title>{{ page.title }} | Test Page</title>
+    <meta property="og:title" content="{{ page.title }}" />
+    {% else %}
+    <title>Test Page: Don't Panic</title>
+    <meta property="og:title" content="Test Page: Don't Panic" />
+    {% endif %}
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}" />
+    {% else %}
+    <meta name="description" content="This is a dangerous site.">
+    <meta property="og:description" content="This is a dangerous site." />
+    {% endif %
     <link href="/favicon.png" rel="icon">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta charset="utf-8">
