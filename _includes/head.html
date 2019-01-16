@@ -1,24 +1,25 @@
 <head>
     {% if page.title %}
-        <title>{{ page.title }} | Test Page</title>
-        <meta property="og:title" content="{{ page.title }}" />
+    <title>{{ page.title }} | Test Page</title>
+    <meta property="og:title" content="{{ page.title }}" />
     {% else %}
-        <title>Test Page: Don't Panic</title>
-        <meta property="og:title" content="Test Page: Don't Panic" />
+    <title>Test Page: Don't Panic</title>
+    <meta property="og:title" content="Test Page: Don't Panic" />
     {% endif %}
     {% if page.description %}
-        <meta name="description" content="{{ page.description }}">
-        <meta property="og:description" content="{{ page.description }}" />
+    <meta name="description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}" />
     {% else %}
-        <meta name="description" content="This is a dangerous site.">
-        <meta property="og:description" content="This is a dangerous site." />
+    <meta name="description" content="This is a dangerous site.">
+    <meta property="og:description" content="This is a dangerous site." />
     {% endif %}
     <link href="/favicon.png" rel="icon">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Orbitron|Raleway:200" rel="stylesheet">
-    <link rel="stylesheet" href="/fonts/fontawesome-free-5.6.3-web/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/main.css">
 </head>
