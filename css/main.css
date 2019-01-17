@@ -341,12 +341,12 @@ h2 ~ p {
     margin-bottom: 0.25em;
 }
 .hero-content .social-link {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #557c83;
+    background-color: lavender;
+    color: white;
 }
 .hero-content .social-link:hover {
-    background-color: pink;
-    color: #fff;
+    background-color: white;
+    color: lavender;
 }
 .half-hero {
     background-position: center center;
