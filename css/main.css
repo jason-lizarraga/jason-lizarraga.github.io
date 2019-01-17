@@ -1,6 +1,6 @@
 /* GLOBAL STYLES */
 html {
-    box-shadow: 0 0 0 30px #000 inset;
+    box-shadow: 0 0 0 30px pink inset;
     padding: 0 30px;
 }
 body {
@@ -48,14 +48,14 @@ h2 ~ p {
 
 /* HEADER STYLES */
 .header {
-    background-color: #000;
-    color: pink;
+    background-color: pink;
+    color: #fff;
     position: fixed;
     width: 100%;
     z-index: 20;
   }
 .header-logo {
-    background-color: #000;
+    background-color: pink;
     box-sizing: border-box;
     display: block;
     height: 10vh;
@@ -89,7 +89,7 @@ h2 ~ p {
     padding-left: 1em;
 }
 .header-nav a {
-    color: pink;
+    color: #fff;
 }
 .nav-links a {
     font-size: 0.8rem;
@@ -105,11 +105,11 @@ h2 ~ p {
   color: #ed6e2f;
 }
 .header-nav > li:first-child a:hover {
-  color: pink;
+  color: #fff;
 }
 .header-nav a,
 .drop-trigger {
-  color: pink;
+  color: #fff;
 }
 .nav-links a,
 .drop-trigger {
@@ -150,7 +150,7 @@ h2 ~ p {
 }
 .drop-trigger:after {
     border: 0.3em solid;
-    border-color: pink transparent transparent;
+    border-color: #fff transparent transparent;
     content: "";
     height: 0;
     position: absolute;
@@ -169,7 +169,7 @@ h2 ~ p {
 }
 .drop-menu:before {
     border: 0.6em solid;
-    border-color: transparent transparent pink;
+    border-color: transparent transparent #fff;
     content: "";
     height: 0;
     position: absolute;
@@ -178,7 +178,7 @@ h2 ~ p {
     width: 0;
 }
 .drop-menu li {
-    background-color: pink;
+    background-color: #fff;
 }
 .drop-menu li ~ li {
     border-top: 1px dotted rgba(0,0,0,0.1)
@@ -219,7 +219,7 @@ h2 ~ p {
   
 /* FOOTER STYLES */
 .footer {
-    background-color: #000;
+    background-color: pink;
     padding: 10vh 0 15vh;
     text-align: center;
 }
@@ -227,7 +227,7 @@ h2 ~ p {
     width: 50px;
 }
 .footer h3 {
-    color: pink;
+    color: #fff;
     padding-top: 1.5em;
     text-transform: uppercase;
 }
@@ -306,7 +306,7 @@ h2 ~ p {
 /* .full-hero:after {
     bottom: 2vh;
     border: 10px solid;
-    border-color: pink transparent transparent;
+    border-color: #fff transparent transparent;
     content: "";
     height: 0;
     left: 50%;
@@ -316,7 +316,7 @@ h2 ~ p {
   } */
 .full-hero:after {
     bottom: 2vh;
-    color: pink;
+    color: #fff;
     content: "﹀";
     font-size: 36px;
     left: 50%;
@@ -328,7 +328,7 @@ h2 ~ p {
     background-position: center top;
 }
 .hero-content {
-    color: pink;
+    color: #fff;
     position: relative;
     text-align: center;
     text-transform: uppercase;
@@ -345,8 +345,8 @@ h2 ~ p {
     color: #557c83;
 }
 .hero-content .social-link:hover {
-    background-color: #000;
-    color: pink;
+    background-color: pink;
+    color: #fff;
 }
 .half-hero {
     background-position: center center;
@@ -364,7 +364,7 @@ h2 ~ p {
     background: rgba(150, 150, 150, 0.5);
     border-radius: 99px;
     box-sizing: border-box;
-    color: pink;
+    color: #fff;
     display: inline-block;
     font-family: helvetica, arial, sans;
     font-size: 1.7em;
@@ -406,8 +406,8 @@ h2 ~ p {
 }
 .home-callout {
     align-items: center;
-    background-color: #000;
-    color: pink;
+    background-color: pink;
+    color: #fff;
     display: flex;
     padding: 7vh 0;
 }
@@ -445,7 +445,7 @@ h2 ~ p {
   }
 
 .bio-box h3 {
-    color: pink;
+    color: #fff;
     font-family: 'Orbitron';
     font-size: 1.5em;
     margin: -40px 0 1em;
@@ -656,7 +656,7 @@ h2 ~ p {
         margin-bottom: 1em;
     }
     .header-nav li:first-child a {
-        color: pink;
+        color: #fff;
     }
     /* HIDE DROPDOWN IN THE NAV MENU */
     .header-nav .dropdown:hover .drop-menu,
@@ -670,7 +670,7 @@ h2 ~ p {
         max-height: 1000px;
     }
     .mobile-menu-check:checked ~ .show-mobile-menu:after {
-        background-color: #000;
+        background-color: pink;
         color: #ed6e2f;
         content: "CLOSE";
         left: 0;
